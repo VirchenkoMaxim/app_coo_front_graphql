@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
-import { useQuery } from 'react-apollo';
 import { USERS_QUERY } from '../query/usersQuery';
-import { Pagination, Skeleton } from 'antd';
+import { Pagination } from 'antd';
 import 'antd/dist/antd.css';
 import './index.scss'
-
 import TableComponent from '../common/TableComponent';
 import Preloader from '../common/Preloader';
+import { useQuery } from '@apollo/client';
 
 
 

@@ -28,6 +28,7 @@
     "scss-loader": "^0.0.1"
   },
   "scripts": {
+    "start-client": "react-scripts start",
     "start": "yarn build  && node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,6 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": ""
+  }
 }

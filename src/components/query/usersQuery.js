@@ -1,5 +1,4 @@
-const { gql } = require("apollo-boost");
-
+import { gql } from '@apollo/client';
 
 export const USERS_QUERY = (from, to) => gql`
     query {

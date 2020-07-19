@@ -47,7 +47,7 @@ const columns = [
 ];
 export default function TableComponent({ data, loading }) {
 
-    let toAntData = data.users.map(obj => Object.assign(obj, { key: obj.id },
+    let toAntData = data.users.map(obj => Object.assign({}, obj, { key: obj.id },
         { total_clicks: obj.stats.reduce((a, b) => a + b.clicks, 0) },
         { total_views: obj.stats.reduce((a, b) => a + b.page_views, 0) }
     ));
