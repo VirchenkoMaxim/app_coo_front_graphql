@@ -18,6 +18,7 @@ function App() {
       <Header />
       <Stats />
       <Stats />
+      <Stats />
       <Footer />
     </ApolloProvider>
   );
