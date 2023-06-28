@@ -15,6 +15,7 @@ function App() {
     <ApolloProvider client={client}>
       <Header />
       <Stats />
+      <Stats />
       <Footer />
     </ApolloProvider>
   );
